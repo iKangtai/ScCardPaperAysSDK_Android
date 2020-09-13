@@ -82,12 +82,12 @@
       }
   });  
   ```
-  7.调用完成释放资源
+  5.调用完成释放资源
   ```java
     cardPaperAnalysiserClient.stopPaperSassAnalysis();
   ```
 
-  8.混淆代码过滤
+  6.混淆代码过滤
   ```java
     -dontwarn  com.ikangtai.cardpapersdk.**
     -keep class com.ikangtai.cardpapersdk.** {*;}
