@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<layer-list xmlns:android="http://schemas.android.com/apk/res/android">-->
+<!--&lt;!&ndash;先画一个虚线方框&ndash;&gt;-->
+<!--<item>-->
+<!--<shape android:shape="rectangle">-->
+<!--<size android:width="4dp" />-->
+<!--<stroke-->
+<!--android:width="4dp"-->
+<!--android:color="#FF7486"-->
+<!--android:dashGap="2dp"-->
+<!--android:dashWidth="6dp" />-->
+<!--</shape>-->
+<!--</item>-->
+<!--&lt;!&ndash;再画一个白色色块将虚线方框的部分挡住，只剩下左边一条虚线边&ndash;&gt;-->
+<!--<item android:left="4dp">-->
+<!--<shape android:shape="rectangle">-->
+<!--<solid android:color="#FFFFFF" />-->
+<!--</shape>-->
+<!--</item>-->
+<!--</layer-list>-->
+
+<rotate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fromDegrees="90"
+    android:toDegrees="90">
+
+    <shape android:shape="line">
+        <stroke
+            android:width="3dp"
+            android:color="#79FA1E"
+            android:dashGap="3dp"
+            android:dashWidth="10dp" />
+    </shape>
+
+</rotate>

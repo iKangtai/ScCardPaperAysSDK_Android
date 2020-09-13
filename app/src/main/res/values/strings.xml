@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">ScCardPaperAnalysiserDemo</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_video">Video</string>
+    <string name="menu_video2">Video2</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+    <string name="paper_result_dialog_flip">Flip Horizontally</string>
+    <string name="paper_result_dialog_hit">Please drag M, G, C to confirm the label is correct. If the color line does not exist, click X to delete</string>
+    <string name="paper_result_dialog_hit_add">,click + to add %s</string>
+    <string name="paper_result_dialog_hit_separator">,</string>
+    <string name="paper_result_dialog_net_error">No Internet connection. Intelligent algorithm unavailable.</string>
+    <string name="paper_result_dialog_title">Photo Results</string>
+    <string name="paper_result_back">Back</string>
+    <string name="paper_result_confirm">Confirm</string>
+    <string name="paper_util_tips">Tips</string>
+    <string name="paper_util_cancel">Cancel</string>
+    <string name="paper_util_done">Done</string>
+    <string name="ovulation_camera_tips"><![CDATA[To avoid the failure of the strip test, please take a photo within <font color="#79FA1E">10-15</font> minutes after color development]]></string>
+    <string name="paper_scan_notice">Please refer to the sample picture to align the C line and make sure that the M G C line is in the green frame</string>
+    <string name="paper_open_flashlight">Open flash</string>
+    <string name="paper_close_flashlight">Close flash</string>
+    <string name="record_ovulation_camera">ovulation</string>
+
+    <string name="permission_fail">Authorization denied permanently, please grant permissions manually</string>
+    <string name="permission_success">Failed to obtain permission</string>
+    <string name="permission_call_fail">You have blocked the app from making calls</string>
+    <string name="sure">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="view_guide">View Guide</string>
+    <string name="take_a_photo">Take Picture</string>
+    <string name="take_photo_again">Take Picture</string>
+    <string name="warm_prompt">Tips</string>
+
+</resources>

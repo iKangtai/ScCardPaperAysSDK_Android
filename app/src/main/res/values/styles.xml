@@ -1,0 +1,146 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="textAllCaps">false</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <declare-styleable name="TopBar">
+        <!-- leftBtnWidth, leftBtnHeight 不设置时为 30dp -->
+        <attr name="leftBtnWidth" format="dimension" />
+        <attr name="leftBtnHeight" format="dimension" />
+        <attr name="leftBtnBg" format="reference" />
+        <attr name="leftBtnText" format="string" />
+        <attr name="leftBtnTextSize" format="dimension" />
+        <attr name="leftTextColor" format="color" />
+        <attr name="leftBtnVisible" format="boolean" />
+
+        <attr name="midLeftBtnWidth" format="dimension" />
+        <attr name="midLeftBtnHeight" format="dimension" />
+        <attr name="midLeftBtnBg" format="reference" />
+        <attr name="midLeftBtnVisible" format="boolean" />
+
+        <attr name="midText" format="string" />
+        <attr name="midTextColor" format="color" />
+        <attr name="midTextSize" format="dimension" />
+
+        <attr name="midRightBtnWidth" format="dimension" />
+        <attr name="midRightBtnHeight" format="dimension" />
+        <attr name="midRightBtnBg" format="reference" />
+        <attr name="midRightBtnVisible" format="boolean" />
+
+        <!-- rightBtnWidth, rightBtnHeight 不设置时为 30dp -->
+        <attr name="rightBtnWidth" format="dimension" />
+        <attr name="rightBtnHeight" format="dimension" />
+        <attr name="rightBtnBg" format="reference" />
+        <attr name="rightBtnText" format="string" />
+        <attr name="rightBtnTextSize" format="dimension" />
+        <attr name="rightBtnTextColor" format="color" />
+        <attr name="rightBtnVisible" format="boolean" />
+
+        <!-- 最右侧倒数第二个按钮相关属性-->
+        <attr name="rightSecondBtnWidth" format="dimension" />
+        <attr name="rightSecondBtnHeight" format="dimension" />
+        <attr name="rightSecondBtnBg" format="reference" />
+        <attr name="rightSecondBtnVisible" format="boolean" />
+
+    </declare-styleable>
+
+    <style name="appToolBarStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/topBar_height</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="leftBtnHeight">@dimen/topBar_btn_hw</item>
+        <item name="leftBtnWidth">@dimen/topBar_btn_hw</item>
+        <item name="midLeftBtnVisible">false</item>
+        <item name="midRightBtnVisible">false</item>
+        <item name="midTextColor">@color/black</item>
+        <item name="midTextSize">@dimen/title_text_size</item>
+        <item name="leftBtnBg">@drawable/left_back</item>
+        <item name="rightBtnVisible">false</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="toolBarStyle" parent="@style/appToolBarStyle"></style>
+
+    <style name="CustomCheckboxTheme" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/check_box</item>
+        <item name="android:layout_width">22dp</item>
+        <item name="android:layout_height">22dp</item>
+    </style>
+
+    <style name="commonButtonCornerStyle">
+        <item name="android:background">@drawable/app_button_corner</item>
+        <item name="android:textSize">@dimen/button_text_size</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <declare-styleable name="MySeekBar">
+        <attr name="myimg" format="reference" />
+    </declare-styleable>
+
+    <!-- 自定义loading dialog -->
+    <style name="loading_dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <!-- 弹出对话框样式 -->
+    <style name="ActionSheetDialogStyle" parent="android:Theme.Dialog">
+        <!-- 背景透明 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- 浮于Activity之上 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 边框 -->
+        <item name="android:windowFrame">@null</item>
+        <!-- Dialog以外的区域模糊效果 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- Dialog进入及退出动画 -->
+        <item name="android:windowAnimationStyle">@style/ActionSheetDialogAnimation</item>
+    </style>
+    <!-- ActionSheet进出动画 -->
+    <style name="ActionSheetDialogAnimation" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/actionsheet_dialog_in</item>
+        <item name="android:windowExitAnimation">@anim/actionsheet_dialog_out</item>
+    </style>
+
+    <style name="PaperUtilAlertDialogStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <style name="AlertDialogStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+</resources>

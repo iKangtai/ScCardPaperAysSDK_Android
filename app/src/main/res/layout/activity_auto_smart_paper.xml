@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.example.paperdemo.view.TopBar
+        android:id="@+id/topBar"
+        style="@style/toolBarStyle"
+        custom:leftBtnVisible="false"
+        custom:midText="@string/app_name"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:id="@+id/camera_scrollview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.example.paperdemo.view.CameraSurfaceView
+                    android:id="@+id/camera_surfaceview"
+                    android:layout_width="match_parent"
+                    android:layout_height="500dp" />
+            </LinearLayout>
+        </ScrollView>
+
+
+        <com.example.paperdemo.view.SmartPaperMeasureContainerLayout
+            android:id="@+id/paper_scan_content_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <com.example.paperdemo.view.ManualSmartPaperMeasureLayout
+                android:id="@+id/paper_manual_smart_paper_measureLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+        </com.example.paperdemo.view.SmartPaperMeasureContainerLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_40"
+            android:layout_marginTop="@dimen/dp_15"
+            android:layout_marginRight="@dimen/dp_40"
+            android:gravity="center"
+            android:lineSpacingExtra="@dimen/dp_4"
+            android:text="@string/paper_scan_notice"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dp_12" />
+
+        <LinearLayout
+            android:id="@+id/smart_paper_bottom_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/paper_scan_content_view"
+            android:background="@color/color_000000"
+            android:orientation="vertical">
+
+            <!--闪光灯-->
+            <TextView
+                android:id="@+id/paper_flash_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/smart_paper_bottom_view"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="12dp"
+                android:drawableTop="@drawable/icon_lamp_close"
+                android:drawablePadding="6dp"
+                android:text="@string/paper_open_flashlight"
+                android:textColor="@color/white"
+                android:layout_gravity="center_horizontal"/>
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+            <TextView
+                android:id="@+id/ovulationCameraTips"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/paper_open_album"
+                android:gravity="center"
+                android:textColor="@color/white" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.example.paperdemo.view.AlphaImage
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/btn_shutter_background"
+                    android:visibility="invisible" />
+
+                <com.example.paperdemo.view.AlphaImage
+                    android:id="@+id/shutterBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/btn_shutter_background" />
+
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</LinearLayout>

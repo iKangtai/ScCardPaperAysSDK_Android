@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="line_border_color">#aaa</color>
+    <color name="white">#fff</color>
+    <color name="color_b3b0aa">#b3b0aa</color>
+    <color name="black">#000</color>
+    <color name="color_F5F5F5">#F5F5F5</color>
+    <color name="app_primary_light_color">#FF6F8F</color>
+    <color name="app_primary_light_color_alpha_e6">#E6FF6F8F</color>
+    <color name="color_FF8960">#FF8960</color>
+    <color name="color_4285F7">#4285F7</color>
+    <color name="color_FFB7C7">#FFB7C7</color>
+    <color name="color_FFC4B0">#FFC4B0</color>
+    <color name="color_FF8960_E6">#E6FF8960</color>
+    <color name="app_primary_dark_color">#4285F7</color>
+    <color name="app_primary_dark_color_alpha_e6">#E6FF7486</color>
+    <color name="color_FFEF92">#FFEF92</color>
+    <color name="color_67A3FF">#67A3FF</color>
+    <color name="color_67A3FF_26">#2667A3FF</color>
+    <color name="app_text_color">#aaa</color>
+    <color name="color_F8F8F8">#F8F8F8</color>
+    <color name="color_D8D8D8">#D8D8D8</color>
+    <color name="color_B2B2B2">#B2B2B2</color>
+    <color name="transparent">#00000000</color>
+    <color name="color_EBEBEB">#EBEBEB</color>
+    <color name="color_BFBFBF">#BFBFBF</color>
+
+    <color name="test">#FF7486</color>
+    <!--透明度	16进制表示-->
+    <!--100%	00-->
+    <!--95   %	0D-->
+    <!--90   %	1A-->
+    <!--85   %	26-->
+    <!--80   %	33-->
+    <!--75   %	40-->
+    <!--70   %	4D-->
+    <!--65   %	59-->
+    <!--60   %	66-->
+    <!--55   %	73-->
+    <!--50   %	80-->
+    <!--45   %	8C-->
+    <!--40   %	99-->
+    <!--35   %	A6-->
+    <!--30   %	B3-->
+    <!--25   %	BF-->
+    <!--20   %	CC-->
+    <!--15   %	D9-->
+    <!--10   %	E6-->
+    <!--5     %	F2-->
+    <!--0     %	FF-->
+    <color name="color_333333">#333333</color>
+    <color name="color_444444">#444444</color>
+    <color name="color_777777">#777777</color>
+    <color name="color_white">#ffffff</color>
+    <color name="default_color">#444444</color>
+    <!--当天颜色-->
+    <color name="today_color">#FF7486</color>
+    <!--当天后面日期颜色-->
+    <color name="after_today_color">#B2B2B2</color>
+    <!--当天前面日期颜色-->
+    <color name="befor_today_color">#444444</color>
+    <!--星期颜色-->
+    <color name="week_color">#B2B2B2</color>
+    <!--月颜色-->
+    <color name="month_color">#444444</color>
+
+    <!--实体颜色-->
+    <color name="solid_color">#FF7486</color>
+    <!--虚线颜色-->
+    <color name="dash_color">#FF7486</color>
+    <!--虚线颜色-->
+    <color name="dash_dark_color">#999999</color>
+    <!--透明色-->
+    <color name="transparent_color">#00000000</color>
+    <!--选中日历颜色-->
+    <color name="select_default_color">#FCEAEA</color>
+    <!--浅蓝色-->
+    <color name="solid_light_blue">#6667A3FF</color>
+    <!--深蓝色-->
+    <color name="solid_dark_blue">#67A3FF</color>
+
+    <color name="red">#f00</color>
+
+    <color name="color_8E8E93">#8E8E93</color>
+
+    <color name="color_CCFFFFFF">#CCFFFFFF</color>
+    <color name="color_F4F400">#F4F400</color>
+    <color name="color_FF7487">#FF7487</color>
+    <color name="color_ECECEC">#ECECEC</color>
+    <color name="color_FF7384">#FF7384</color>
+    <color name="color_E4C9B6">#E4C9B6</color>
+    <color name="color_484242">#484242</color>
+    <color name="color_e3b387">#e3b387</color>
+    <color name="color_ff023a">#ff023a</color>
+    <color name="color_000000">#000000</color>
+    <color name="color_c6c6c6">#c6c6c6</color>
+    <color name="alertdialog_line">#c6c6c6</color>
+
+    <color name="gray1">#afafaf</color>
+    <color name="gray2">#e6e6e6</color>
+    <color name="gray3">#f3f3f3</color>
+    <color name="gray4">#aaaaaa</color>
+</resources>

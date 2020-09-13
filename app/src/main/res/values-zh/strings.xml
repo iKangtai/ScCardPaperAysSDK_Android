@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">ScCardPaperAnalysiserDemo</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_video">Video</string>
+    <string name="menu_video2">Video2</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+    <string name="paper_result_dialog_title">拍照结果</string>
+    <string name="paper_result_dialog_flip">水平翻转</string>
+    <string name="paper_result_dialog_hit">请拖动M、G、C以确认标注正确，若显色线不存在可点击X进行删除</string>
+    <string name="paper_result_dialog_hit_add">，点击+可添加%s</string>
+    <string name="paper_result_dialog_hit_separator">、</string>
+    <string name="paper_result_dialog_net_error">检测不到网络，无法请求智能算法，请联网后再试</string>
+    <string name="paper_result_back">返回</string>
+    <string name="paper_result_confirm">确认</string>
+    <string name="paper_util_tips">提示</string>
+    <string name="paper_util_cancel">取消</string>
+    <string name="paper_util_done">确定</string>
+    <string name="ovulation_camera_tips"><![CDATA[为避免失效，请在显色后 <font color="#79FA1E">10-15</font>分钟内拍照]]></string>
+    <string name="paper_scan_notice">请参照样张图片对准C线，确保M G C线在绿色取景框内</string>
+    <string name="paper_open_flashlight">打开闪光灯</string>
+    <string name="paper_close_flashlight">关闭闪光灯</string>
+    <string name="record_ovulation_camera">排卵试纸</string>
+
+    <string name="permission_fail">被永久拒绝授权，请手动授予权限</string>
+    <string name="permission_success">获取权限失败</string>
+    <string name="permission_call_fail">您已禁止该应用拨打电话</string>
+    <string name="sure">确认</string>
+    <string name="cancel">取消</string>
+    <string name="view_guide">查看引导</string>
+    <string name="take_a_photo">立即拍照</string>
+    <string name="take_photo_again">重新拍照</string>
+    <string name="warm_prompt">温馨提示</string>
+
+</resources>
