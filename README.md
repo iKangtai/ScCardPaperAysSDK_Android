@@ -38,7 +38,7 @@
        e.printStackTrace();
     }
     //试纸识别sdk相关配置
-    Config config = new Config.Builder().pixelOfdExtended(true).paperMinHeight(PxDxUtil.dip2px(getContext(), 20)).uiOption(uiOption).logWriter(logWriter).build();
+    Config config = new Config.Builder().logWriter(logWriter).build();
     paperAnalysiserClient = new PaperAnalysiserClient(getContext(), appId, appSecret, "xyl1@qq.com",config);
   ```
   
