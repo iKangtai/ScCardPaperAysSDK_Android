@@ -1,4 +1,4 @@
-package com.example.paperdemo.dialog;
+package com.example.cardpaperdemo.dialog;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -17,7 +17,7 @@ import android.widget.LinearLayout;
 import android.widget.LinearLayout.LayoutParams;
 import android.widget.TextView;
 
-import com.example.paperdemo.R;
+import com.example.cardpaperdemo.R;
 import com.ikangtai.cardpapersdk.util.LogUtils;
 
 public class FeedbackDialog {

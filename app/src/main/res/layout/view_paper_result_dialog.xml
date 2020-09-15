@@ -37,7 +37,7 @@
         android:layout_height="wrap_content"
         android:gravity="center_vertical">
 
-        <com.example.paperdemo.view.PaperResultView
+        <com.example.cardpaperdemo.view.PaperResultView
             android:id="@+id/paper_image"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

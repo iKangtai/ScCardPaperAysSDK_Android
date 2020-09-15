@@ -1,4 +1,4 @@
-package com.example.paperdemo.view;
+package com.example.cardpaperdemo.view;
 
 import android.animation.ObjectAnimator;
 import android.content.Context;

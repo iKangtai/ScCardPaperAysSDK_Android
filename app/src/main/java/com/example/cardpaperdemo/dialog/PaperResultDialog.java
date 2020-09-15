@@ -1,4 +1,4 @@
-package com.example.paperdemo.dialog;
+package com.example.cardpaperdemo.dialog;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -17,9 +17,9 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.paperdemo.R;
-import com.example.paperdemo.view.ManualSmartPaperMeasureLayout;
-import com.example.paperdemo.view.PaperResultView;
+import com.example.cardpaperdemo.R;
+import com.example.cardpaperdemo.view.ManualSmartPaperMeasureLayout;
+import com.example.cardpaperdemo.view.PaperResultView;
 import com.ikangtai.cardpapersdk.CardPaperAnalysiserClient;
 import com.ikangtai.cardpapersdk.Session;
 import com.ikangtai.cardpapersdk.event.IBaseAnalysisEvent;

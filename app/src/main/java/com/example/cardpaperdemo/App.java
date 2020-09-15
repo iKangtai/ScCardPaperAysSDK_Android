@@ -1,11 +1,6 @@
-package com.example.paperdemo;
+package com.example.cardpaperdemo;
 
 import android.app.Application;
-
-import com.ikangtai.cardpapersdk.util.Md5Utils;
-
-import java.util.HashMap;
-import java.util.Map;
 
 /**
  * desc

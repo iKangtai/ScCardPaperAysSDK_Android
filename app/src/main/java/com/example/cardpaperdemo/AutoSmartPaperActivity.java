@@ -1,4 +1,4 @@
-package com.example.paperdemo;
+package com.example.cardpaperdemo;
 
 import android.app.Dialog;
 import android.graphics.Bitmap;
@@ -12,19 +12,18 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.paperdemo.dialog.AlertDialog;
-import com.example.paperdemo.dialog.PaperResultDialog;
-import com.example.paperdemo.util.CameraUtil;
-import com.example.paperdemo.view.CameraSurfaceView;
-import com.example.paperdemo.view.ManualSmartPaperMeasureLayout;
-import com.example.paperdemo.view.ProgressDialog;
-import com.example.paperdemo.view.SmartPaperMeasureContainerLayout;
-import com.example.paperdemo.view.TopBar;
+import com.example.cardpaperdemo.dialog.AlertDialog;
+import com.example.cardpaperdemo.dialog.PaperResultDialog;
+import com.example.cardpaperdemo.util.CameraUtil;
+import com.example.cardpaperdemo.view.CameraSurfaceView;
+import com.example.cardpaperdemo.view.ManualSmartPaperMeasureLayout;
+import com.example.cardpaperdemo.view.ProgressDialog;
+import com.example.cardpaperdemo.view.SmartPaperMeasureContainerLayout;
+import com.example.cardpaperdemo.view.TopBar;
 import com.hjq.permissions.OnPermission;
 import com.hjq.permissions.Permission;
 import com.hjq.permissions.XXPermissions;
 import com.ikangtai.cardpapersdk.CardPaperAnalysiserClient;
-import com.ikangtai.cardpapersdk.http.reqmodel.FeedbackReq;
 import com.ikangtai.cardpapersdk.model.PaperResult;
 import com.ikangtai.cardpapersdk.util.LogUtils;
 import com.ikangtai.cardpapersdk.util.ToastUtils;

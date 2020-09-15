@@ -1,4 +1,4 @@
-package com.example.paperdemo.view;
+package com.example.cardpaperdemo.view;
 
 import android.content.Context;
 import android.graphics.Bitmap;

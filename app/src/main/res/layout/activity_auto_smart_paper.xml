@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <com.example.paperdemo.view.TopBar
+    <com.example.cardpaperdemo.view.TopBar
         android:id="@+id/topBar"
         style="@style/toolBarStyle"
         custom:leftBtnVisible="false"
@@ -26,7 +26,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
-                <com.example.paperdemo.view.CameraSurfaceView
+                <com.example.cardpaperdemo.view.CameraSurfaceView
                     android:id="@+id/camera_surfaceview"
                     android:layout_width="match_parent"
                     android:layout_height="500dp" />
@@ -34,19 +34,19 @@
         </ScrollView>
 
 
-        <com.example.paperdemo.view.SmartPaperMeasureContainerLayout
+        <com.example.cardpaperdemo.view.SmartPaperMeasureContainerLayout
             android:id="@+id/paper_scan_content_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
 
-            <com.example.paperdemo.view.ManualSmartPaperMeasureLayout
+            <com.example.cardpaperdemo.view.ManualSmartPaperMeasureLayout
                 android:id="@+id/paper_manual_smart_paper_measureLayout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
 
-        </com.example.paperdemo.view.SmartPaperMeasureContainerLayout>
+        </com.example.cardpaperdemo.view.SmartPaperMeasureContainerLayout>
 
         <TextView
             android:layout_width="wrap_content"
@@ -102,7 +102,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
-                <com.example.paperdemo.view.AlphaImage
+                <com.example.cardpaperdemo.view.AlphaImage
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerInParent="true"
@@ -110,7 +110,7 @@
                     android:src="@drawable/btn_shutter_background"
                     android:visibility="invisible" />
 
-                <com.example.paperdemo.view.AlphaImage
+                <com.example.cardpaperdemo.view.AlphaImage
                     android:id="@+id/shutterBtn"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"

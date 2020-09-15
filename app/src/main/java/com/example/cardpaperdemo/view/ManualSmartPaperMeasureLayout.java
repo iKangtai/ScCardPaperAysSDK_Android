@@ -1,4 +1,4 @@
-package com.example.paperdemo.view;
+package com.example.cardpaperdemo.view;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -16,7 +16,7 @@ import android.util.DisplayMetrics;
 import android.view.View;
 import android.widget.FrameLayout;
 
-import com.example.paperdemo.R;
+import com.example.cardpaperdemo.R;
 import com.ikangtai.cardpapersdk.util.Utils;
 
 import androidx.annotation.NonNull;
