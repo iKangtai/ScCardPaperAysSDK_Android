@@ -622,6 +622,9 @@ public class PaperResultDialog {
         double loc1 = paperWidth * lineLoc1 - line1ImageView.getWidth() * 72f / 102;
         double loc2 = paperWidth * lineLoc2 - line1ImageView.getWidth() / 2;
         double loc3 = paperWidth * lineLoc3 - line3ImageView.getWidth() * 33f / 105;
+        if (lineLoc3==0){
+            loc3 = paperWidth * ((data.tagLineLoc - data.innerLeft) / data.innerWidth) - line3ImageView.getWidth() * 33f / 105;
+        }
         if (lineLoc2 == 0) {
             loc2 = loc3 - line2ImageView.getWidth();
         }
