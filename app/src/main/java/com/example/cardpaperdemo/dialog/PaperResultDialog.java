@@ -450,6 +450,8 @@ public class PaperResultDialog {
                     paperResult.setSessionId(mSession.getSessionId());
                     paperResult.setPaperId(mSession.getPaperId());
                     paperResult.setPaperTime(mSession.getPaperTime());
+                    paperResult.setPanoramaImgUrl(mSession.getPanoramaImgUrl());
+                    paperResult.setUrl(mSession.getUrl());
                     if (mSession.isChange()) {
                         if (line1View.isShown()) {
                             paperResult.setLine1Pos(mSession.getChangedLine1Pos());
