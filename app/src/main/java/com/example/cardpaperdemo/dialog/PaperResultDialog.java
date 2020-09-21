@@ -728,7 +728,7 @@ public class PaperResultDialog {
         float paperBottom = data.innerBottom * 1f / paperResultView.getPaperWidth();
         float tagLineLoc = (data.tagLineLoc - data.innerLeft) / data.innerWidth;
         float test1LineLoc = (float) paperResult.getLine1Pos();
-        float test2LineLoc = (float) paperResult.getLine1Pos();
+        float test2LineLoc = (float) paperResult.getLine2Pos();
         /**
          * paperLeft,paperTop,paperRight,paperBottom 试纸取景框相对试纸全景图坐标位置
          * tagLineLoc 标记线相对于试纸框位置
