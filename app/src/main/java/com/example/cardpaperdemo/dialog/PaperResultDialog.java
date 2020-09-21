@@ -743,6 +743,7 @@ public class PaperResultDialog {
                     paperResultListener.dismissProgressDialog();
                     paperResultListener.save(paperResult);
                 }
+                dialog.dismiss();
             }
         });
     }
