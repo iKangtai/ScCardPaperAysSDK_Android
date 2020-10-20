@@ -1,7 +1,7 @@
 # ScCardPaperAnalysiserDemo_Android
 ### 一.引入试纸sdk库
    ```java
-       api 'com.ikangtai.papersdk:ScCardPaperAnalysiserLib:1.0.0-alpha3'
+       api 'com.ikangtai.papersdk:ScCardPaperAnalysiserLib:1.0.0-alpha5'
    ```
 ### 二.添加依赖库地址
    ```java
