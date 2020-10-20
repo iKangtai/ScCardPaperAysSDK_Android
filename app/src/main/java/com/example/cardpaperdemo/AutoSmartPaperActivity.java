@@ -272,7 +272,28 @@ public class AutoSmartPaperActivity extends AppCompatActivity {
 
             @Override
             public void save(PaperResult paperResult) {
+                LogUtils.d(paperResult.toString());
                 smartPaperMeasureContainerLayout.showManualSmartPaperMeasure(null);
+                int analysisRes = paperResult.getPaperValue();
+                String resultContent = "";
+                if (analysisRes > 0) {
+                    if (analysisRes == 3) {
+                        resultContent = "通过AI智能算法分析，我们判断您的检测结果是：IgG和IgM阳性";
+                    } else if (analysisRes == 1) {
+                        resultContent = "通过AI智能算法分析，我们判断您的检测结果是：IgM阳性";
+                    } else if (analysisRes == 2) {
+                        resultContent = "通过AI智能算法分析，我们判断您的检测结果是：IgG阳性";
+                    } else {
+                        resultContent = "通过AI智能算法分析，我们判断您的检测结果是：阳性";
+                    }
+                } else if (analysisRes == 0) {
+                    resultContent = "通过AI智能算法分析，我们判断您的检测结果是：阴性";
+                } else if (analysisRes == -1) {
+                    resultContent = "拍摄失败，请您根据上图确认您的检测结果";
+                } else if (analysisRes == -2) {
+                    resultContent = "通过AI智能算法分析，我们判断您的检测结果是：无效测试";
+                }
+                ToastUtils.show(AutoSmartPaperActivity.this, resultContent);
             }
 
             @Override
@@ -288,7 +309,7 @@ public class AutoSmartPaperActivity extends AppCompatActivity {
         dismissProgressDialog();
         new AlertDialog(AutoSmartPaperActivity.this).builder().setTitle(getString(R.string.warm_prompt))
                 .setMsg(message, Gravity.CENTER)
-                .setNegativeButton(getString(R.string.view_guide), new View.OnClickListener() {
+                .setNegativeButton(getString(R.string.cancel), new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
                         smartPaperMeasureContainerLayout.showManualSmartPaperMeasure(null);
